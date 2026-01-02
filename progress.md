@@ -5,14 +5,14 @@
 
 ## SpecKit Status
 
-| Key | Title | Status | Folder |clarify|plan|specify|tasks|
-|---|---|---|---|---|---|---|---|
-| FEAT-001 | User Registration & Login | completed | psec-kit-file/FEAT-001/ |completed|completed|completed|completed|
-| FEAT-002 | Event Listing | completed | psec-kit-file/FEAT-002/ |completed|completed|completed|completed|
-| FEAT-003 | Event Details Page | pending | psec-kit-file/FEAT-003/ |completed|completed|pending|completed|
-| FEAT-004 | Arabic Language Support | pending | psec-kit-file/FEAT-004/ |completed|completed|pending|completed|
-| FEAT-005 | Responsive Design | pending | psec-kit-file/FEAT-005/ |pending|pending|completed|pending|
-| FEAT-006 | Privacy Policy & Terms Pages | pending | psec-kit-file/FEAT-006/ |completed|pending|pending|pending|
-| FEAT-007 | Simple & Fast UI | pending | psec-kit-file/FEAT-007/ |pending|pending|pending|pending|
-| FEAT-008 | Account Type Selection | pending | psec-kit-file/FEAT-008/ |pending|pending|pending|pending|
-| FEAT-009 | Organizer Information Display | pending | psec-kit-file/FEAT-009/ |pending|pending|pending|pending|
+| Key        | Title                                 | Status     | Folder                       |clarify|plan|specify|tasks|
+|------------|---------------------------------------|------------|------------------------------|-------|----|-------|-----|
+| FEAT-001   | User Registration & Login             | completed  | psec-kit-file/FEAT-001/      |completed|completed|completed|completed|
+| FEAT-002   | Event Listing                         | completed  | psec-kit-file/FEAT-002/      |completed|completed|completed|completed|
+| FEAT-003   | Event Details Page                    | pending    | psec-kit-file/FEAT-003/      |pending|pending|pending|pending|
+| FEAT-004   | Arabic Language Support               | completed  | psec-kit-file/FEAT-004/      |completed|completed|completed|completed|
+| FEAT-005   | Responsive Design                     | pending    | psec-kit-file/FEAT-005/      |pending|pending|pending|pending|
+| FEAT-006   | Privacy Policy & Terms Pages          | pending    | psec-kit-file/FEAT-006/      |pending|pending|pending|pending|
+| FEAT-007   | Simple & Fast UI                      | pending    | psec-kit-file/FEAT-007/      |pending|pending|pending|pending|
+| FEAT-008   | Account Type Selection                | pending    | psec-kit-file/FEAT-008/      |pending|pending|pending|pending|
+| FEAT-009   | Organizer Information Display         | pending    | psec-kit-file/FEAT-009/      |pending|pending|pending|pending|
