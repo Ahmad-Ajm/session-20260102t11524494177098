@@ -1,30 +1,50 @@
-# Plan: Event Details Page (FEAT-003)
+# Implementation Plan – FEAT-003: Event Details Page
 
-## Steps to Implement
-1. **Backend API**
-   - إنشاء endpoint لاسترجاع تفاصيل الفعالية حسب معرف الفعالية.
-   - التأكد من تضمين جميع الحقول المطلوبة (الوصف، الأجندة، معلومات المنظمة، رابط التسجيل الخارجي).
-2. **Frontend Page**
-   - تصميم صفحة تفاصيل الفعالية باستخدام Angular.
-   - عرض جميع المعلومات بشكل واضح ومتجاوب.
-   - دعم اللغة العربية بشكل كامل في جميع العناصر.
-   - إضافة زر التسجيل الخارجي مع التحقق من صحة الرابط.
-3. **Integration**
-   - ربط الصفحة بالـ API لجلب البيانات ديناميكياً.
-   - معالجة حالات عدم وجود بيانات أو أخطاء الاتصال.
-4. **Testing**
-   - اختبار الصفحة على مختلف الأجهزة والمتصفحات.
-   - التأكد من دعم اللغة العربية.
-   - التحقق من عمل زر التسجيل الخارجي.
+## 1. Feature Spec
+Refer to specify.md for detailed requirements.
 
-## Timeline
-- التقدير: 2-3 أيام عمل.
+## 2. Clarification Doc
+See clarify.md for scope and ambiguity resolution.
 
-## Stakeholders
-- المشاركون
-- المنظمون
+## 3. Construction
+- Backend: ABP Framework (C#)
+  - Event entity with all required fields (name, date, time, location, description, agenda, organizer info, contact, registration URL).
+  - EventService: GetEventById (returns all details).
+- Frontend: Angular
+  - EventDetailsComponent: Fetches and displays event details.
+  - Responsive, RTL (Arabic) support.
+  - External registration button (opens URL in new tab).
+- Data: SQL Server
+  - Event table with all necessary columns.
 
-## Risks
-- نقص بعض البيانات في قاعدة البيانات.
-- مشاكل في الروابط الخارجية.
+## 4. Implementation Phases
+### Phase 1: Domain & Data
+  1. Create Event entity and migration.
+  2. Seed sample events with full details.
+### Phase 2: Application Layer (API)
+  3. Implement EventService.GetEventById.
+### Phase 3: UI & Integration
+  4. Build Angular EventDetailsComponent.
+  5. Integrate with backend API.
+  6. Add responsive and RTL support.
+  7. Add external registration button.
+### Phase 4: Polish & Cross-Cutting
+  8. Validate external URLs.
+  9. Handle missing info gracefully.
+  10. Test on mobile and desktop.
 
+## 5. Dependencies & Parallelism
+- Backend and frontend can be developed in parallel after entity definition.
+- Data seeding can be done early for testing.
+
+## 6. Non-Functional Implementation
+- Optimize for fast load and low bandwidth.
+- Ensure full Arabic support.
+
+## 7. Risks & Mitigation
+- Incomplete event data: Add validation and fallback messages.
+- Broken registration URLs: Validate and warn users.
+
+## 8. Assumptions
+- Stack: C#, ABP, Angular, SQL Server.
+- No internal booking/payment in MVP.
