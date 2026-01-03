@@ -1,18 +1,1 @@
-# Progress
-
-- **features-map**: `features-map.md`
-- **summary**: `conversation-summary.md`
-
-## SpecKit Status
-
-| Key        | Title                                 | Status     | Folder                       |clarify|plan|specify|tasks|
-|------------|---------------------------------------|------------|------------------------------|-------|----|-------|-----|
-| FEAT-001   | User Registration & Login             | completed  | psec-kit-file/FEAT-001/      |completed|completed|completed|completed|
-| FEAT-002   | Event Listing                         | completed  | psec-kit-file/FEAT-002/      |completed|completed|completed|completed|
-| FEAT-003   | Event Details Page                    | completed  | psec-kit-file/FEAT-003/      |completed|completed|completed|completed|
-| FEAT-004   | Arabic Language Support               | completed  | psec-kit-file/FEAT-004/      |completed|completed|completed|completed|
-| FEAT-005   | Responsive Design                     | pending    | psec-kit-file/FEAT-005/      |completed|pending|completed|completed|
-| FEAT-006   | Privacy Policy & Terms Pages          | pending    | psec-kit-file/FEAT-006/      |pending|completed|pending|pending|
-| FEAT-007   | Simple & Fast UI                      | pending    | psec-kit-file/FEAT-007/      |pending|pending|pending|pending|
-| FEAT-008   | Account Type Selection                | pending    | psec-kit-file/FEAT-008/      |pending|pending|pending|pending|
-| FEAT-009   | Organizer Information Display         | pending    | psec-kit-file/FEAT-009/      |pending|pending|pending|pending|
+IyBQcm9ncmVzcwoKLSAqKmZlYXR1cmVzLW1hcCoqOiBgZmVhdHVyZXMtbWFw\nLm1kYAotICoqc3VtbWFyeSoqOiBgY29udmVyc2F0aW9uLXN1bW1hcnkubWRg\nCgojIyBTcGVjS2l0IFN0YXR1cwoKfCBLZXkgICAgICAgIHwgVGl0bGUgICAg\nICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IFN0YXR1cyAgICAgfCBG\nb2xkZXIgICAgICAgICAgICAgICAgICAgICAgIHxjbGFyaWZ5fHBsYW58c3Bl\nY2lmeXx0YXNrc3wKfC0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0t\nLS0tLS0tLS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0t\nLS0tLS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tfC0tLS18LS0tLS0tLXwtLS0t\nLXwKfCBGRUFULTAwMSAgIHwgVXNlciBSZWdpc3RyYXRpb24gJiBMb2dpbiAg\nICAgICAgICAgICB8IGNvbXBsZXRlZCAgfCBwc2VjLWtpdC1maWxlL0ZFQVQt\nMDAxLyAgICAgIHxjb21wbGV0ZWR8Y29tcGxldGVkfGNvbXBsZXRlZHxjb21w\nbGV0ZWR8CnwgRkVBVC0wMDIgICB8IEV2ZW50IExpc3RpbmcgICAgICAgICAg\nICAgICAgICAgICAgICAgfCBjb21wbGV0ZWQgIHwgcHNlYy1raXQtZmlsZS9G\nRUFULTAwMi8gICAgICB8Y29tcGxldGVkfGNvbXBsZXRlZHxjb21wbGV0ZWR8\nY29tcGxldGVkfAp8IEZFQVQtMDAzICAgfCBFdmVudCBEZXRhaWxzIFBhZ2Ug\nICAgICAgICAgICAgICAgICAgIHwgY29tcGxldGVkICB8IHBzZWMta2l0LWZp\nbGUvRkVBVC0wMDMvICAgICAgfGNvbXBsZXRlZHxjb21wbGV0ZWR8Y29tcGxl\ndGVkfGNvbXBsZXRlZHwKfCBGRUFULTAwNCAgIHwgQXJhYmljIExhbmd1YWdl\nIFN1cHBvcnQgICAgICAgICAgICAgICB8IGNvbXBsZXRlZCAgfCBwc2VjLWtp\ndC1maWxlL0ZFQVQtMDA0LyAgICAgIHxjb21wbGV0ZWR8Y29tcGxldGVkfGNv\nbXBsZXRlZHxjb21wbGV0ZWR8CnwgRkVBVC0wMDUgICB8IFJlc3BvbnNpdmUg\nRGVzaWduICAgICAgICAgICAgICAgICAgICAgfCBjb21wbGV0ZWQgIHwgcHNl\nYy1raXQtZmlsZS9GRUFULTAwNS8gICAgICB8Y29tcGxldGVkfGNvbXBsZXRl\nZHxjb21wbGV0ZWR8Y29tcGxldGVkfAp8IEZFQVQtMDA2ICAgfCBQcml2YWN5\nIFBvbGljeSAmIFRlcm1zIFBhZ2VzICAgICAgICB8IHBlbmRpbmcgICAgfCBw\nc2VjLWtpdC1maWxlL0ZFQVQtMDA2LyAgICAgIHxwZW5kaW5nfGNvbXBsZXRl\nZHxwZW5kaW5nfHBlbmRpbmd8CnwgRkVBVC0wMDcgICB8IFNpbXBsZSAmIEZh\nc3QgVUkgICAgICAgICAgICAgICAgICAgICAgfCBwZW5kaW5nICAgIHwgcHNl\nYy1raXQtZmlsZS9GRUFULTAwNy8gICAgICB8cGVuZGluZ3xwZW5kaW5nfHBl\nbmRpbmd8cGVuZGluZ3wKfCBGRUFULTAwOCAgIHwgQWNjb3VudCBUeXBlIFNl\nbGVjdGlvbiAgICAgICAgICAgICAgICB8IHBlbmRpbmcgICAgfCBwc2VjLWtp\ndC1maWxlL0ZFQVQtMDA4LyAgICAgIHxwZW5kaW5nfHBlbmRpbmd8cGVuZGlu\nZ3xwZW5kaW5nfAp8IEZFQVQtMDA5ICAgfCBPcmdhbml6ZXIgSW5mb3JtYXRp\nb24gRGlzcGxheSAgICAgICAgIHwgcGVuZGluZyAgICB8IHBzZWMta2l0LWZp\nbGUvRkVBVC0wMDkvICAgICAgfHBlbmRpbmd8cGVuZGluZ3xwZW5kaW5nfHBl\nbmRpbmd8Cg==\n
